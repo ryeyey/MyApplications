@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お薬飲めたね"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/welcomeText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お薬手帳"
+        android:id="@+id/MedicineListButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="個人情報"
+        android:id="@+id/PersonalInformationButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/MedicineListButton"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="チャット"
+        android:id="@+id/ChatButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/PersonalInformationButton"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="連絡事項"
+        android:id="@+id/NoticeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ChatButton"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>
